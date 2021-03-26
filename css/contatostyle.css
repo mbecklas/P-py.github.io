@@ -10,18 +10,13 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 body {
     background-color: #282830;
 }
-
-body .em-desenvolvimento {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
-    color:#fff;
+body .em-desenvolvimento section {
+    background-color: white;
 }
 
-body .em-desenvolvimento h1 {
-    padding: 200px;
-    font-size: 4rem;
+body .em-desenvolvimento section h1 {
+    font-size: 5rem;
+    color: #282830;
 }
 
 .menu {
@@ -81,4 +76,8 @@ body .em-desenvolvimento h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media only screen and (max-width:768px) {
+
 }
