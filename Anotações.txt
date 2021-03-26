@@ -1,0 +1,30 @@
+**Anotações**
+
+O que vamos aprender?
+
+- Iniciar a carreira de dev
+- Criar e publicar um site do zero
+- Desenvolver a parte técnica de HTML e CSS
+- Aumentar o repertório em Git e VSCode
+- Aprender a importância do desenvolvimento mobile e ter uma introdução à tal
+- Criar um site portfólio do zero, totalmente personalizado
+
+O HTML foi criado bem antes da Internet como conhecemos hoje, e ele foi usado inicialmente no campo científico
+
+index.html é sempre o arquivo/código de entrada
+
+Toda tag tem seu par de fechamento
+<html>
+</html>
+
+Podemos usar W3Schools para buscar referências de tags HTML
+
+No Schema.org podemos pegar referência de como marcar cada tipo de site diferente, ajudando na indexação do google.
+
+Existem 2 tipos de elementos no HTML, elementos de caixa e elementos de linha, header, article e outros são caixas.
+Elementos de bloco são todos aqueles que pegam linhas horizontais inteiras. Além disso elementos de bloco nunca vão aparecer uns do lado do outro.
+
+Seletores no CSS são as partes que chamam cada elemento.
+
+Para saber se os elementos possuem alguns atributos podemos usar a ferramenta de inspecionar.
+
