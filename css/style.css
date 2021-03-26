@@ -225,6 +225,9 @@ footer nav .redes-sociais li a img:hover {
 .copyright {
     color: #fff;
 }
+.copyright a {
+    color: rgb(143, 143, 143);
+}
 
 /* Página inicial */
 main .coluna section {
