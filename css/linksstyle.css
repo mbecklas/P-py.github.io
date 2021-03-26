@@ -20,8 +20,10 @@ body .em-desenvolvimento {
 }
 
 body .em-desenvolvimento h1 {
-    padding: 200px;
-    font-size: 4rem;
+    padding-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 500px;
 }
 
 .menu {
@@ -81,4 +83,11 @@ body .em-desenvolvimento h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+@media only screen and (min-width: 768px) {
+    body .em-desenvolvimento h1 {
+        padding-top: 50px;
+        font-size: 4rem;
+        max-width: 100%;
+    }
 }
