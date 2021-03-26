@@ -15,12 +15,12 @@ body .em-desenvolvimento {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: 0 auto;
     color:#fff;
 }
 
 body .em-desenvolvimento h1 {
-    padding: 200px;
+    padding-top: 50px;
     font-size: 4rem;
 }
 
@@ -81,4 +81,13 @@ body .em-desenvolvimento h1 {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media only screen and (min-width:768px) {
+    body .em-desenvolvimento h1 {
+        padding-top: 50px;
+        font-size: 2rem;
+        text-align: center;
+        max-width: 500px;
+    }
 }
