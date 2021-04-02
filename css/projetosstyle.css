@@ -227,10 +227,12 @@ footer nav .redes-sociais li a img {
     max-width: 50px;
     position: relative;
     border-radius: 40%;
+    transition: .3s;
 }
 footer nav .redes-sociais li a img:hover {
-    top:-5px;
-    box-shadow: 0 0 10px 5px #666;
+    /* top:-5px;  */
+    /* box-shadow: 0 0 10px 5px #666;  */
+    transform: scale(1.4) translateY(-5px);
 }
 .copyright {
     color: #fff;
