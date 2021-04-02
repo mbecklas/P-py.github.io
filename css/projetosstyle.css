@@ -55,6 +55,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
     border-bottom: 3px solid #EDEDED;
     font-size: 1.3rem;
+    transition: .3s;
 }
 .menu ul li a:hover {
     background-color: #d6d6d6;
@@ -65,6 +66,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
+    transform: scale(1.15);
 }
 @keyframes fadein {
     from { opacity: 0; }
